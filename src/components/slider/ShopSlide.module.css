@@ -1,0 +1,24 @@
+.orderbtn {
+    text-align: initial;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 4.5rem;
+    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, .2));
+}
+
+.card {
+    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, .2));
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    border: 0.25rem solid white;
+    border-radius: 0.5rem;
+    margin: 50% auto;
+    left: 0;
+    right: 0;
+}
+
+
+

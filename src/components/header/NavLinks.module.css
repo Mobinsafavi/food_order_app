@@ -1,0 +1,46 @@
+.navlinks ul {
+    height: 100%;
+    list-style-type: none !important;
+}
+
+.navlinks ul li {
+    margin: 0.75rem 0.5rem;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: #62666d;
+    padding: 0.25rem 0;
+}
+
+.carticon {
+    position: relative;
+    border: 0px !important;
+    background-color: rgb(255, 255, 255);
+    color: #424750;
+}
+
+.carticon span {
+    position: absolute;
+    top: -7px;
+    right: 1px;
+    min-width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: #EF4056;
+    color: #fff;
+}
+
+.loginicon {
+    border: 0px !important;
+    background-color: rgb(255, 255, 255);
+    color: #424750;
+}
+
+.navlinks a:active,
+.navlinks a.linkStyle,
+.navlinks a:hover {
+    color: #19bfd3;
+    border-bottom: 1px solid #19bfd3;
+}

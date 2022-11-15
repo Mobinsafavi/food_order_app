@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: CustomFont1Name !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  position: relative;
+}
+
+code {
+  font-family: CustomFont1Name !important;
+}
+
+
+
+.form-select {
+  background-position: left 0.5rem center !important;
+}
+
+
+button a{
+  display: flex;
+  text-decoration: none;
+  color: #19bfd3;
+  text-align: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 1rem !important;
+    font-weight: bolder !important;
+}
+
+/*------------------------------ Font Validation ---------------------------*/
+
+@font-face {
+  font-family: 'CustomFont1Name';
+  src: local('CustomFont1Name'),
+    url('./fonts/iran-sans-5/woff/IRANSansWeb.woff') format('woff'),
+    url('./fonts/iran-sans-5/woff2/IRANSansWeb.woff2') format('woff2');
+}
+
+
+/*------------------------------ Media Querys (fonts) ---------------------------*/
+
+@media screen and (max-width: 576px) {
+  .font-1 {
+    font-size: 3vw !important;
+  }
+
+  .font-2 {
+    font-size: 3.5vw !important;
+  }
+
+  .font-3 {
+    font-size: 4vw !important;
+  }
+
+  .font-4 {
+    font-size: 4.5vw !important;
+  }
+
+  .font-5 {
+    font-size: 5vw !important;
+  }
+}
